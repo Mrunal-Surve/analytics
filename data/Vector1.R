@@ -22,3 +22,4 @@ seq(0, 1, length.out = 11)
 marks = rnorm(60, mean=60, sd=10)
 marks
 plot(density(marks))
+#eod

@@ -6,5 +6,5 @@ df1
 ?mtcars
 class(mtcars)
 str(mtcars)
-write.csv(mtcars,file='M:\rWork\rProject\analytics\data\mtcars.csv')
-?write.csv
+summary(mtcars)
+write.csv(mtcars,file='./data/mtcars.csv')

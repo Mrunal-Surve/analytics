@@ -5,7 +5,7 @@
 # round brackets are used to assign and print it at the same time
 
 x = c(1,5,7,8,4) 
-x2 <- c(2,5,7,8,4)
+x2 <- c(1,2,3,4,5)
 
 x
 x2
@@ -22,4 +22,15 @@ seq(0, 1, length.out = 11)
 marks = rnorm(60, mean=60, sd=10)
 marks
 plot(density(marks))
-#eod
+matrix(marks,ncol = 6)
+
+print(median(x2))
+
+?class
+class(v1)
+class(v2)
+v2=c('a')
+v1= c('a','b','c')
+v1[v1 %in% v2]
+
+
